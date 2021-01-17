@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+#name{
+    position: absolute;
+    top: 6%;
+    
+}
+
+body {
+    background: url("../CSS/herbe.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify center;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    margin-top: 5em;
+    margin-left: 37%;
+    margin-right: auto;
+}
+
+.contenu {
+    background-color: white;
+    background: rgba(243, 239, 239, 0.5);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1em;
+    
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.nom {
+    width: 30%;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1.3em;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: black;
+    background: rgba(243, 239, 239, 0.7);
+    border: 3px black solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+:root {  
+    
+    /* Set neon color */
+    --neon-text-color: #03A9F4;
+    --neon-border-color:#F50057;
+  }
+
+.bienvenue {
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flicker 2.5s infinite alternate;     
+    }
+    @media screen and (max-width: 700px) {
+    .bienvenue{
+        font-size:2rem;
+    }
+    }
+    @media screen and (max-width: 450px) and (min-width:150px)  {
+    .bienvenue{
+        font-size:1rem;}
+    }
+    @media screen and (max-width: 100px) and (min-width:20px)  {
+    .bienvenue{
+        font-size:0.5rem;}
+    }
+    .bienvenue::-moz-selection {
+        background-color: var(--neon-border-color);
+        color: var(--neon-text-color);
+    }
+      
+    .bienvenue::selection {
+        background-color: var(--neon-border-color);
+        color: var(--neon-text-color);
+    }
+      
+    .bienvenue:focus {
+        outline: none;
+    }
+      
+    /* Animation neon  */
+    @keyframes flicker {
+          
+        0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+            
+            text-shadow:
+                  -0.2rem -0.2rem 1rem #fff,
+                  0.2rem 0.2rem 1rem #fff,
+                  0 0 2rem var(--neon-text-color),
+                  0 0 4rem var(--neon-text-color),
+                  0 0 6rem var(--neon-text-color),
+                  0 0 8rem var(--neon-text-color),
+                  0 0 10rem var(--neon-text-color);
+    
+          }
+          
+          20%, 24%, 55% {        
+              text-shadow: none;
+             
+          }    
+      }
+
+
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.sections {
+    border: 7px black solid;
+    background: rgba(243, 239, 239, 0.5);
+    color: black;
+    font-size: 2rem;
+}
+
+.sections:hover, .sections1:hover {
+    background:rgba(243, 239, 239, 0.9) no-repeat;
+}
+
+.sections1 {
+    border: 7px black solid;
+    background: rgba(243, 239, 239, 0.5);
+    color: black;
+    font-size: 2rem;
+}
+
+
+.menuExp {
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    padding-top: 0.1em;
+}
+
+h2 {
+    text-align: center;
+}
+
+.experience {
+    
+    margin-block-start: 2em;
+    padding: 16px;
+    padding-top: 7px;
+    padding-bottom: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: rgba(243, 239, 239, 0.7);
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.experience1 {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: rgba(243, 239, 239, 0.7);
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+
+
+#novotel, #pullman, #angelina, #fosca {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: white;
+}
+
+.competences {
+    margin-block-start: 2em;
+    border: 0px ;
+    padding: 20px;
+    padding-top: 7px;
+    padding-bottom: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.premiers, .seconds {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: rgba(243, 239, 239, 0.7);
+}
+
+.seconds {
+    padding-top: 10px;
+    padding-bottom: 1.3em;
+}
+
+#carte, #briefing, #stress, #gestionEquipes, #itescia, #bts, #bac {
+    margin-block-start: 1em;
+    box-shadow: 6px 6px 6px black;
+    border-radius: 7px 7px 7px 7px;
+    width: 30%;
+    text-align: justify;
+    padding: 5px;
+    background-color: white;
+}
+
+#bac {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formations {
+    background: rgba(243, 239, 239, 0.7);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 10px;
+    margin-block-start: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.formationSecond {
+    background: rgba(243, 239, 239, 0.7);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 1.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#infos {
+    background: rgba(243, 239, 239, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 1.1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 1.8em;
+}
+
+#hobb {
+    font-size: 1.5rem;
+}
+
+#hobbys {
+    background: rgba(243, 239, 239, 0.7);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    word-spacing: 6rem;
+}
+
+.cop {
+    font-size: smaller;
+}
+
+#icon_git {
+    max-width: 15%;
+    max-height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+#button_Link {
+    border: 3px black solid;
+    background: rgba(243, 239, 239, 0.5);
+    color: black;
+    margin-top: 1em;
+    word-spacing: 5em;
+    margin-left: 6%;
+}
+
+#button_git {
+    border: 3px black solid;
+    background: rgba(243, 239, 239, 0.5);
+    color: black;
+    margin-top: 1em;
+    margin-left: 5%;
+}
+
+#button_git:hover, #button_mail:hover, #button_Link:hover  {
+    background:rgba(243, 239, 239, 1) no-repeat;
+}
+
+#button_mail {
+    border: 3px black solid;
+    background: rgba(243, 239, 239, 0.5);
+    color: black;
+    margin-left: 30%;  
+}
+
+/**
+* Test 
+*/
+
+#lightSlider
+{
+    float: right;
+}
+ 
+.switch
+{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+ 
+.switch input
+{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+ 
+.slider
+{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+ 
+.slider:before
+{
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+ 
+input:checked + .slider
+{
+    background-color: #2196F3;
+}
+ 
+input:focus + .slider
+{
+    box-shadow: 0 0 1px #2196F3;
+}
+ 
+input:checked + .slider:before
+{
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+ 
+/* Rounded sliders */
+.slider.round
+{
+    border-radius: 34px;
+}
+ 
+.slider.round:before
+{
+    border-radius: 50%;
+}
+
+/**
+*/
+
+
+/************************ Responsive pour Iphone X ******************/ 
+/**** Raffraichir la page si passage d'un mode Desktop à Iphone X ***/ 
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+    h1 {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 250%;
+    }
+
+    h3 {
+        font-size: 130%;
+    }
+
+    article#itescia {
+        font-size: 172%;
+    }
+
+    article#bts {
+        font-size: 170%;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    #photoPolo {
+        width: 40%;
+        height: 40%;
+        margin-top: 6em;
+        margin-left: 16.3em;
+        margin-right: auto;
+    }
+
+    main#infos {
+        font-size: 235%;
+    }
+
+
+    .section {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: auto;
+        margin-right: 1em;
+    }
+
+    
+    .sections {
+        text-decoration-color: black;
+        width: 43%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        background: rgba(243, 239, 239, 0.7);
+        
+    }
+
+    .sections1 {
+        width: 43%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        background: rgba(243, 239, 239, 0.7);
+    }
+    
+
+    .nom {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience {
+    
+        margin-left: 1em;
+        margin-right: 1em;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: rgba(243, 239, 239, 0.7);
+        padding-bottom: 2em;
+    }
+
+    .experience1 {
+        margin-left: 1em;
+        margin-right: 1em;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: rgba(243, 239, 239, 0.7);
+        padding-bottom: 2em;
+    }
+
+    #angelina, #fosca {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #pullman {
+        margin-block-start: 0.02em;
+    }
+
+    .premiers, .seconds {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #pullman, #novotel {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #carte, #briefing, #stress, #gestionEquipes, #itescia, #bts, #bac {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formations {
+        margin-block-start: 1em;
+        width: 96%;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #bts {
+        margin-bottom: 1em;
+    }
+    
+    #bac {
+        margin-top: 0.01em;
+    }
+
+    #comp {
+        margin-top: 1em;
+        padding-top: 1em;
+    }
+
+    #cv {
+        padding-left: 1.3em;
+    }
+
+    #infos {
+        width: 100%;
+        font-size: 200%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a#button_mail {
+        margin-left: 4em;
+        margin-right: auto;
+    }
+
+    #hobbys {
+        width: 97%;
+    }
+}
+
+/** Responsive pour la taille d'une fenetre inferieur a 800px **/ 
+
+@media all and (max-width: 800px) {
+    h1 {
+        width: 80%;
+    }
+
+    #photoPolo {
+        width: 40%;
+        height: 40%;
+        margin-top: 6em;
+        margin-left: 8.5em;
+        margin-right: auto;
+    }
+
+    .section {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    .sections {
+        width: 33%;
+    }
+
+    .sections1 {
+        width: 33%;
+    }
+    
+
+    .nom {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hobbiess {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contenu {
+        align-items: center;
+    }
+
+    .experience, .contenu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #angelina, #fosca {
+        width: 86%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #pullman {
+        margin-block-start: 0.02em;
+    }
+    
+    #novotel, #pullman {
+        width: 86%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .premiers, .seconds {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+    #gestionEquipes, #stress, #carte, #briefing {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formations {
+        margin-block-start: 1em;
+        width: 92%;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formationSecond {
+        width: 92%;
+    }
+
+    #itescia, #bts, #bac {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #bts {
+        margin-bottom: 0.5em;
+        
+    }
+    
+    #bac {
+        margin-bottom: 1em;
+    }
+
+    #hobbys {
+        line-height: 2em;
+    }
+    
+
+}
