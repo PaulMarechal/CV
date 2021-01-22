@@ -1,11 +1,5 @@
-Projet CV ( JS ) 
+Projet CV 
 
-Site web dynamique en HTML5 / CSS3 / JS
+Réalisation d'un site web contenant le contenu de notre CV en HTML5 / CSS3
 
-  - ToDo List 
-  - Modifier le contenu du CV avec un espace admin
-  - Recherche d'utilisateurs GitHub
-  - Quizz
-  - Lecteur MP3 ( avec barre d'oscillation )
-  - Thème jour / nuit 
   
