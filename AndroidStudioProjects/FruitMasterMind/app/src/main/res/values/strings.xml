@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FruitMasterMind</string>
+    <string name="check_button_game">Valider</string>
+
+</resources>
